@@ -1,0 +1,113 @@
+            .Bebas-Neue {
+                font-family: 'Bebas Neue', cursive;
+            }
+            
+            .font {
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .Roboto {
+                font-family: 'Bebas Neue', cursive;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .logo img {
+                width: auto;
+                height: 50px;
+            }
+            
+            .yellow-color {
+                color: #FABE4C;
+            }
+            
+            .blue-color {
+                color: #363958;
+            }
+            
+            .nav-items a {
+                font-weight: 500;
+                letter-spacing: 1px;
+                color: #405836 !important;
+            }
+            
+            .nav-items li a:hover {
+                box-shadow: 0px 0px 2px 2px #a4bc46;
+                color: #a4bc46;
+                transition: 1s;
+                border-radius: 10px;
+            }
+            
+            .heading-text {
+                color: #FABE4C;
+                font-size: 5rem;
+            }
+            
+            .button {
+                background-image: linear-gradient(#a4bc46e7, #a4bc46);
+                padding: 9px 25px;
+                border-radius: 5px;
+                border: 0px;
+                color: white;
+                font-weight: 600;
+            }
+            
+            .button:hover {
+                background-image: linear-gradient( #a4bc46, #a4bc46e7);
+                transition: 1s;
+                transform: rotateX(10deg);
+            }
+            
+            .first-page:hover .thumb {
+                transition: 2s;
+                transform: rotatey(360deg);
+            }
+            
+            .col:hover .cardd img {
+                transform: scale(1.1);
+                transition: 1s;
+                margin-bottom: 20px;
+                box-shadow: 0px 0px 20px 2px #a4bc46;
+            }
+            
+            .cardd img {
+                transition: 1s;
+            }
+            
+            .full-card {
+                transition: 1s;
+            }
+            
+            .full-card:hover {
+                transition: 1s;
+                background-color: #F1F1F1;
+                box-shadow: 0px 0px 20px 2px #a4bc46;
+            }
+            /*footer*/
+            /*------------------jquary---------------------*/
+            /*------------------mobile----------------------*/
+            
+            @media only screen and (max-width: 500px) {
+                .heading-text {
+                    font-size: 3rem;
+                }
+                .logo img {
+                    width: auto;
+                    height: 23px;
+                }
+                .first-p-p-tag {}
+                .button {
+                    padding: 6px 14px;
+                }
+            }
+            /*----------------tablat--------------*/
+            
+            @media only screen and (min-width: 500px) and (max-width: 992px) {
+                .logo img {
+                    width: auto;
+                    height: 35px;
+                }
+                .button {
+                    background-image: linear-gradient(#a4bc46e7, #a4bc46);
+                    padding: 9px 20px;
+                }
+            }
